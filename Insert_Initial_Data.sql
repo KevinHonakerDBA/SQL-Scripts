@@ -5,3 +5,7 @@ VALUES
 
 -- Select the data to confirm the insert
 SELECT * FROM Project_Log;
+UPDATE table_name
+SET column_1 = new_value_1,
+    column_2 = new_value_2
+WHERE some_column = some_value; -- CRITICAL: This condition prevents updating ALL rows
